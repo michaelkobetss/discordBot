@@ -1,0 +1,44 @@
+[
+    {
+      "tip": "Using the `/alerts` command in <#728368180048822323> will display which continents are currently having a meltdown alert.",
+      "image": ""
+    },
+    {
+      "tip": "Playing for the full duration of an alert can reward you with up to 150 <:certs:802637527408050226> as well as 350 <:iso4:802637527151411240>.",
+      "image": ""
+    },
+    {
+      "tip": "Q-spotting will play a voiceline audible to enemies as well, therefore think twice about spotting whenever you want to remain stealthy.",
+      "image": ""
+    },
+    {
+      "tip": "Q-spotting enemies will display their real time positions as well as the direction they are looking at on the minimap, which is useful should line of sight be broken.",
+      "image": ""
+    },
+    {
+      "tip": "You can use `Ctrl + TAB` in game to quickly swap Yell/Squad chats. ",
+      "image": ""
+    },
+    {
+      "tip": "By pressing `Alt + F` you can quickly check your fps on the bottom left.",
+      "image": ""
+    },
+    {
+      "tip": "Aiming down sights will be inaccurate should you be falling down as well as aiming during an uninterrupted spray. Therefore consider mixing in a brief firing pause.",
+      "image": ""
+    },
+    {
+      "tip": "Use `/enable_scaleform_fonts (1|0)` to enable/disable nicknames over people. This option can give extra fps and nicknames won't block your line of sight in large fights.",
+      "image": ""
+    },
+  {
+      "tip": "Your harasser got stuck? You can drop ammo pack under wheels to push it a bit",
+      "image": ""
+    }
+   
+   
+  ]
+   
+   
+  
+  
