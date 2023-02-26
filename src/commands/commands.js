@@ -25,6 +25,18 @@ module.exports = [
       },
     ],
   },
+  {
+    name: "play",
+    description: "Plays a song from YouTube",
+    options: [
+      {
+        name: "url",
+        description: "Youtube URL",
+        type: 3,
+        required: true,
+      },
+    ],
+  },
   // {
   //   name: "create",
   //   description: "Creates a sign up message",

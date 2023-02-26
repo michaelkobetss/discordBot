@@ -1,5 +1,6 @@
 require("dotenv").config();
 
+
 const { TOKEN, CLIENT_ID, GUILD_ID, PS2_SERVICE_ID, ADMIN_USER_ID } =
   process.env;
 const { REST } = require("@discordjs/rest");
@@ -17,6 +18,7 @@ const tip = require("./commands/tip/tip.js");
 const tipsDB = require("./db/tipsDB.json");
 const timestamp = require("./commands/timestamp/timestamp.js")
 const utc = require("./commands/utc/utc.js")
+const play = require("./commands/play/play")
 // const create = require("./commands/sign-ups/create.js");
 
 updateGuild(GUILD_ID, rest, Routes, CLIENT_ID, commands);
@@ -30,6 +32,8 @@ const client = new Client({
     GatewayIntentBits.GuildMembers,
     GatewayIntentBits.DirectMessages,
     GatewayIntentBits.GuildPresences,
+    GatewayIntentBits.GuildVoiceStates,
+    GatewayIntentBits.GuildPresences
   ],
 });
 
@@ -49,6 +53,10 @@ client.on("interactionCreate", async (interaction) => {
 
   if (interaction.commandName === "help") {
     return help(interaction, commands);
+  }
+
+  if (interaction.commandName === "play") {
+    return play(interaction);
   }
 
   // if (interaction.commandName === "create") {
